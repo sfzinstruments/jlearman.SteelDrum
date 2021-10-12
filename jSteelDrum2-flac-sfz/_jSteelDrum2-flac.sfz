@@ -40,9 +40,6 @@ width_curvecc1=99
 
 loop_mode=one_shot
 
-<master>
-volume=6
-
 <group> lovel=1 hivel=40
 ampeg_release=100.000000
 <region> sample=jsdb_060__C4_1-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.333333333333
