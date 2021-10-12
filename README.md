@@ -2,7 +2,7 @@
  C Steel Drum sampled instrument, sfz format, version 2
 
 - Hand-made oil-drum steel drum.
-- 27 notes sampled, C4 (middle C) to B5
+- 24 notes sampled, C4 (middle C) to B5
 - 5 velocity layers
 - 3 or 4 samples per zone
 - Stereo 16 bit, 44.1 KHz samples
