@@ -1,7 +1,47 @@
+// Original: https://github.com/jlearman/jSteelDrum2
+
+// CC0 / Unlicence - free to use as you wish; no warranty
+
+<control>
+label_cc1=Mod:width
+set_hdcc1=0.5
+
+<master>
+volume=2.5
+
+// Mod wheel controls stereo depth
+
+width_oncc1=100
+width_curvecc1=99
+
+// more dynamics
+// exp = 3
+//amp_velcurve_0=.0001
+//amp_velcurve_16=.0020
+//amp_velcurve_32=.0160
+//amp_velcurve_48=.0540
+//amp_velcurve_64=.1280
+//amp_velcurve_80=.2500
+//amp_velcurve_96=.4319
+//amp_velcurve_112=.6859
+//amp_velcurve_127=1
+
+// even more dynamics
+// exp = 4
+//amp_velcurve_0=.000
+//amp_velcurve_16=.0003
+//amp_velcurve_32=.0040
+//amp_velcurve_48=.0204
+//amp_velcurve_64=.0645
+//amp_velcurve_80=.1575
+//amp_velcurve_96=.3265
+//amp_velcurve_112=.6049
+//amp_velcurve_127=1
+
+loop_mode=one_shot
 
 <master>
 volume=6
-
 
 <group> lovel=1 hivel=40
 ampeg_release=100.000000
@@ -419,3 +459,7 @@ ampeg_release=100.000000
 <region> sample=SteelDrum_083__B5_4-2.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.25 hirand=0.5
 <region> sample=SteelDrum_083__B5_4-3.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.5 hirand=0.75
 <region> sample=SteelDrum_083__B5_4.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.75 hirand=1.0
+
+
+// stereo depth control curve
+<curve> curve_index=99 v000=-1 v060=0 v068=0 v127=2
