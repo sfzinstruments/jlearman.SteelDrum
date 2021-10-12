@@ -11,7 +11,7 @@
 
 ## Comparison to version 1
 
-- C4 octave resampled to get more even dynamics.  The first time I sampled the instrument, I concentrated on using the same stike force for each velocity layer.  As it turns out, different notes respond very differently.  So this time, I focused on the timbre, trying to get the same amount of harmonics for each note in a layer.  I used the version1 samples for the second octave (where I had a harder time getting consistent timbres).
+- The lower octave was resampled to get more even dynamics.  The first time I sampled the instrument, I concentrated on using the same stike force for each velocity layer.  As it turns out, different notes respond very differently.  So this time, I focused on the timbre, trying to get the same amount of harmonics for each note in a layer.  I used the version1 samples for the second octave (where I had a harder time getting consistent timbres).
 - The top velocity layer here is the 4th (2nd highest) layer in the original.  When playinb V1, I didn't find its top layer musically useful.
 - V1 is stretched dynamically so that low velocity notes are quieter than the default.  This was needed to get the top velocity layers to sound loud enough (since the peaks are very high, whough without a lot of pitched content.)  With the new sample set, this didn't seem necessary so I didn't bother.
 - I left out the three inner pads (C#6, D#6, and F6) which weren't musically very useful.
