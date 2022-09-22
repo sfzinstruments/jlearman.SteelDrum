@@ -1,4 +1,4 @@
-# jSteelDrum2
+# jSteelDrum
  C Steel Drum sampled instrument, sfz format, version 2
 
 - Hand-made oil-drum steel drum.
@@ -13,7 +13,7 @@
 
 Click the green "Code" button above, and choose "Download ZIP". Unpack the .zip
 file into a folder of your choice, and load the result into your sample player.  I use Sforzando,
-which supports FLAC.  You only need the jSteelDrum2-flac-sfz folder and its contents.
+which supports FLAC.  You only need the jSteelDrum-flac-sfz folder and its contents.
 The .sfz file in there is what you load into your player.
 
 There are two versions of the .sfz file, one with velocity crossfades and one without.
