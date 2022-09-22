@@ -3,18 +3,11 @@
 
 - Hand-made oil-drum steel drum.
 - 24 notes sampled, C4 (middle C) to B5
-- 5 velocity layers
-- 3 or 4 samples per zone
+- 5 velocity layers, with velocity crossfades
+- 3 or 4 samples per zone (that is, per note per layer)
 - Stereo 16 bit, 44.1 KHz samples
 - Unlooped
-- 44 MB in FLAC format
-
-## Comparison to version 1
-
-- The lower octave was resampled to get more even dynamics.  The first time I sampled the instrument, I concentrated on using the same stike force for each velocity layer.  As it turns out, different notes respond very differently.  So this time, I focused on the timbre, trying to get the same amount of harmonics for each note in a layer.  I used the version1 samples for the second octave (where I had a harder time getting consistent timbres).
-- The top velocity layer here is the 4th (2nd highest) layer in the original.  When playinb V1, I didn't find its top layer musically useful.
-- V1 is stretched dynamically so that low velocity notes are quieter than the default.  This was needed to get the top velocity layers to sound loud enough (since the peaks are very high, whough without a lot of pitched content.)  With the new sample set, this didn't seem necessary so I didn't bother.
-- I left out the three inner pads (C#6, D#6, and F6) which weren't musically very useful.
+- 44 MB, in FLAC format
 
 ## How-to
 
@@ -25,13 +18,12 @@ The .sfz file in there is what you load into your player.
 
 ## About the instrument
 
-This is a sampling of a steel drum hand-made in Trinidad and sold by Hopetown Music of Long
-Beach CA, around 2005.  (See photo & PDF.)  The samples were recorded in September 2021.
+This is a sampling of a steel drum (a.k.a. "steel pan") hand-made in Trinidad and sold
+by Hopetown Music of Long Beach CA, around 2005.  (See photo & PDF.)
+The samples were recorded in September 2021.
 
 Samples were recorded in mid-side stereo using an AT4033a as the mid mic and a Studio Projects
-B3 as the side mic.  I am not a percussionist let alone a steel drum player, so
-the dynamics are less even than I would like.  I hope to re-record the samples (I'd say
-50% chance of this happening) so stay tuned.
+B3 as the side mic.
 
 ## Controls
 
@@ -42,3 +34,13 @@ the depth will be 100% even if the mod wheel is not at zero, but if you move the
 wheel, the depth will change accordingly.
 
 Enjoy!
+
+
+## Comparison to version 1
+
+- The lower octave was resampled to get more even dynamics.  The first time I sampled the instrument, I concentrated on using the same stike force for each velocity layer.  As it turns out, different notes respond very differently.  So this time, I focused on the timbre, trying to get the same amount of harmonics for each note in a layer.  I used the version1 samples for the second octave (where I had a harder time getting consistent timbres).
+- The top velocity layer here is the 4th (2nd highest) layer in the original.  When playing
+the first version, I didn't find its top layer musically useful.  I guess there's a limit to how hard you should beat on an instrument.
+- Version 1 was stretched dynamically so that low velocity notes were quieter than the default.  This was needed to get the top velocity layers to sound loud enough (since the peaks are very high, whough without a lot of pitched content.)  With the new sample set, this didn't seem necessary so I didn't bother.
+- I left out the three innermost pads (C#6, D#6, and F6), which weren't musically very useful.
+- This sampleset has velocity crossfades, so timbre variation transitions smoothly with velocity.
