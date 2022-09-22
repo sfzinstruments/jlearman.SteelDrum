@@ -16,6 +16,9 @@ file into a folder of your choice, and load the result into your sample player. 
 which supports FLAC.  You only need the jSteelDrum2-flac-sfz folder and its contents.
 The .sfz file in there is what you load into your player.
 
+There are two versions of the .sfz file, one with velocity crossfades and one without.
+I suggest you use the one with crossfades.
+
 ## About the instrument
 
 This is a sampling of a steel drum (a.k.a. "steel pan") hand-made in Trinidad and sold
