@@ -11,6 +11,12 @@
 
 ## How-to
 
+### Zynthian
+
+On Zynthian, just install the package using the Webconf package manager.
+
+### Otherwise
+
 Click the green "Code" button above, and choose "Download ZIP". Unpack the .zip
 file into a folder of your choice, and load the result into your sample player.  I use Sforzando,
 which supports FLAC.  You only need the jSteelDrum-flac-sfz folder and its contents.
